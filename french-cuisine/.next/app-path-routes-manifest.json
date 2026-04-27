@@ -1,9 +1,0 @@
-{
-  "/_not-found/page": "/_not-found",
-  "/bibliography/page": "/bibliography",
-  "/cheese-wine/page": "/cheese-wine",
-  "/page": "/",
-  "/regions/page": "/regions",
-  "/recipes/page": "/recipes",
-  "/recipes/[id]/page": "/recipes/[id]"
-}
