@@ -17,6 +17,7 @@ const translations = {
     "nav.recipes": "Recipes",
     "nav.cheeseWine": "Cheese & Wine",
     "nav.regions": "Regions",
+    "nav.bibliography": "Bibliography",
     "nav.tagline": "Gastronomie Française",
     
     // Hero
@@ -140,6 +141,18 @@ const translations = {
     "cheeseWine.step3.desc": "Curds are cut and whey is drained, shaping the final cheese texture.",
     "cheeseWine.step4.title": "Aging",
     "cheeseWine.step4.desc": "Cheeses are aged in controlled environments to develop flavor and character.",
+
+    // Bibliography
+    "bibliography.title": "Bibliography",
+    "bibliography.subtitle": "References and sources that inspired our exploration of French cuisine",
+    "bibliography.books": "Books",
+    "bibliography.websites": "Websites",
+    "bibliography.media": "Media",
+    "bibliography.author": "Author",
+    "bibliography.year": "Year",
+    "bibliography.publisher": "Publisher",
+    "bibliography.description": "Description",
+    "bibliography.visit": "Visit",
   },
   fr: {
     // Navbar
@@ -147,6 +160,7 @@ const translations = {
     "nav.recipes": "Recettes",
     "nav.cheeseWine": "Fromage & Vin",
     "nav.regions": "Régions",
+    "nav.bibliography": "Bibliographie",
     "nav.tagline": "Gastronomie Française",
     
     // Hero
@@ -351,6 +365,18 @@ const translations = {
     "cheeseWine.step3.desc": "Le caillé est découpé et le lactosérum est égoutté, façonnant la texture finale du fromage.",
     "cheeseWine.step4.title": "Affinage",
     "cheeseWine.step4.desc": "Les fromages sont affinés dans des environnements contrôlés pour développer leur saveur et leur caractère.",
+
+    // Bibliography
+    "bibliography.title": "Bibliographie",
+    "bibliography.subtitle": "Références et sources qui ont inspiré notre exploration de la cuisine française",
+    "bibliography.books": "Livres",
+    "bibliography.websites": "Sites Web",
+    "bibliography.media": "Médias",
+    "bibliography.author": "Auteur",
+    "bibliography.year": "Année",
+    "bibliography.publisher": "Éditeur",
+    "bibliography.description": "Description",
+    "bibliography.visit": "Visiter",
   },
 };
 

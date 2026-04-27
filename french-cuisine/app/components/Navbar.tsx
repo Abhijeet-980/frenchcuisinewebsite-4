@@ -17,6 +17,7 @@ export default function Navbar() {
     { href: "/recipes", label: t("nav.recipes") },
     { href: "/cheese-wine", label: t("nav.cheeseWine") },
     { href: "/regions", label: t("nav.regions") },
+    { href: "/bibliography", label: t("nav.bibliography") },
   ];
 
   return (
