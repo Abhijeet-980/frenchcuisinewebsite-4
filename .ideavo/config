@@ -1,0 +1,47 @@
+{
+  "systemSetup": [],
+  "templateName": "custom",
+  "projectDependencies": [
+    {
+      "name": "Install Dependencies",
+      "command": "cd french-cuisine && npm install"
+    }
+  ],
+  "codeChecks": [
+    {
+      "name": "Lint",
+      "command": "cd french-cuisine && npm run lint"
+    }
+  ],
+  "buildSteps": [
+    {
+      "name": "Build Project",
+      "command": "cd french-cuisine && npm run build"
+    }
+  ],
+  "runStep": [
+    {
+      "name": "Run Dev Server",
+      "command": "cd french-cuisine && npm run dev -- --port 3000 --hostname 0.0.0.0",
+      "port": "3000"
+    }
+  ],
+  "deploySteps": [
+    {
+      "name": "Build Project",
+      "command": "cd french-cuisine && npm run build"
+    }
+  ],
+  "cleanupFiles": [
+    "french-cuisine/.next",
+    "french-cuisine/dist",
+    "french-cuisine/node_modules"
+  ],
+  "packageManager": "npm",
+  "envPaths": [
+    {
+      "name": "default",
+      "path": "french-cuisine/.env"
+    }
+  ]
+}
